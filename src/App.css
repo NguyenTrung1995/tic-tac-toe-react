@@ -9,6 +9,15 @@ body {
     animation: Gradient 15s ease infinite;
 }
 
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  position: relative;
+}
+
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
